@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/boxomat/static/css/main.0f26fcd1.chunk.css",
-    "main.js": "/boxomat/static/js/main.ff56babc.chunk.js",
-    "main.js.map": "/boxomat/static/js/main.ff56babc.chunk.js.map",
+    "main.js": "/boxomat/static/js/main.68a14d18.chunk.js",
+    "main.js.map": "/boxomat/static/js/main.68a14d18.chunk.js.map",
     "runtime-main.js": "/boxomat/static/js/runtime-main.21e75e79.js",
     "runtime-main.js.map": "/boxomat/static/js/runtime-main.21e75e79.js.map",
     "static/css/2.0eea3a3e.chunk.css": "/boxomat/static/css/2.0eea3a3e.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.0eea3a3e.chunk.css",
     "static/js/2.2762ce34.chunk.js",
     "static/css/main.0f26fcd1.chunk.css",
-    "static/js/main.ff56babc.chunk.js"
+    "static/js/main.68a14d18.chunk.js"
   ]
 }
