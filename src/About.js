@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Container>
       <h1>Boxomat</h1>
-      <a href="">Github</a>
+      <a href="https://github.com/ElectricCookie/boxomat">Github</a>
       <p>Boxomat helps you plan assortments. </p>
       <br />
       <h2>Licensing</h2>
