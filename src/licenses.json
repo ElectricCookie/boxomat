@@ -1,0 +1,102 @@
+{
+    "@testing-library/jest-dom@5.11.8": {
+        "licenses": "MIT",
+        "repository": "https://github.com/testing-library/jest-dom",
+        "licenseUrl": "https://github.com/testing-library/jest-dom/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "@testing-library/react@11.2.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/testing-library/react-testing-library",
+        "licenseUrl": "https://github.com/testing-library/react-testing-library/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "@testing-library/user-event@12.6.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/testing-library/user-event",
+        "licenseUrl": "https://github.com/testing-library/user-event/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "immer@8.0.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/immerjs/immer",
+        "licenseUrl": "https://github.com/immerjs/immer/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "npm-license-crawler@0.2.1": {
+        "licenses": "BSD-3-Clause",
+        "repository": "http://github.com/mwittig/npm-license-crawler",
+        "licenseUrl": "http://github.com/mwittig/npm-license-crawler/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "react-dnd@11.1.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/react-dnd/react-dnd",
+        "licenseUrl": "https://github.com/react-dnd/react-dnd/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "react-dom@17.0.1": {
+        "licenses": "MIT",
+        "repository": "https://github.com/facebook/react",
+        "licenseUrl": "https://github.com/facebook/react/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "react-router-dom@5.2.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/ReactTraining/react-router",
+        "licenseUrl": "https://github.com/ReactTraining/react-router/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "react-router@5.2.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/ReactTraining/react-router",
+        "licenseUrl": "https://github.com/ReactTraining/react-router/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "react-scripts@4.0.1": {
+        "licenses": "MIT",
+        "repository": "https://github.com/facebook/create-react-app",
+        "licenseUrl": "https://github.com/facebook/create-react-app/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "react@17.0.1": {
+        "licenses": "MIT",
+        "repository": "https://github.com/facebook/react",
+        "licenseUrl": "https://github.com/facebook/react/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "semantic-ui-css@2.4.1": {
+        "licenses": "MIT",
+        "repository": "https://github.com/Semantic-Org/Semantic-UI-CSS",
+        "licenseUrl": "https://github.com/Semantic-Org/Semantic-UI-CSS/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
+    "semantic-ui-react@2.0.2": {
+        "licenses": "MIT",
+        "repository": "git+ssh://github.com/Semantic-Org/Semantic-UI-React",
+        "licenseUrl": "git+ssh://github.com/Semantic-Org/Semantic-UI-React/raw/master/LICENSE.md",
+        "parents": "box-planner"
+    },
+    "styled-components@5.2.1": {
+        "licenses": "MIT",
+        "repository": "https://github.com/styled-components/styled-components",
+        "licenseUrl": "https://github.com/styled-components/styled-components",
+        "parents": "box-planner"
+    },
+    "unstated-next@1.1.0": {
+        "licenses": "MIT",
+        "parents": "box-planner"
+    },
+    "uuid@8.3.2": {
+        "licenses": "MIT",
+        "repository": "https://github.com/uuidjs/uuid",
+        "licenseUrl": "https://github.com/uuidjs/uuid/raw/master/LICENSE.md",
+        "parents": "box-planner"
+    },
+    "web-vitals@0.2.4": {
+        "licenses": "Apache-2.0",
+        "repository": "https://github.com/GoogleChrome/web-vitals",
+        "licenseUrl": "https://github.com/GoogleChrome/web-vitals/raw/master/LICENSE",
+        "parents": "box-planner"
+    }
+}
