@@ -29,6 +29,12 @@
         "licenseUrl": "http://github.com/mwittig/npm-license-crawler/raw/master/LICENSE",
         "parents": "box-planner"
     },
+    "react-collapse@5.1.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/nkbt/react-collapse",
+        "licenseUrl": "https://github.com/nkbt/react-collapse/raw/master/LICENSE",
+        "parents": "box-planner"
+    },
     "react-dnd@11.1.3": {
         "licenses": "MIT",
         "repository": "https://github.com/react-dnd/react-dnd",

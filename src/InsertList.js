@@ -2,6 +2,8 @@ import { Card } from "semantic-ui-react";
 import BoxPlanner from "./BoxPlanner";
 import InsertEditor from "./InsertEditor";
 
+import { Collapse } from "react-collapse";
+
 const InsertList = () => {
   const { activeBox, selectInsert } = BoxPlanner.useContainer();
 
@@ -18,14 +20,11 @@ const InsertList = () => {
 
         return (
           <Card
+            key={insertKey}
             fluid
-            onClick={
-              active
-                ? null
-                : () => {
-                    selectInsert(insertKey);
-                  }
-            }
+            onClick={() => {
+              selectInsert(insertKey);
+            }}
           >
             <Card.Content>
               <Card.Header>
@@ -34,11 +33,11 @@ const InsertList = () => {
                 <small>{insert?.color.ral}</small>
               </Card.Header>
             </Card.Content>
-            {active ? (
-              <Card.Content>
+            <Collapse isOpened={active}>
+              <div style={{ padding: "1rem" }}>
                 <InsertEditor insertId={insertKey} />
-              </Card.Content>
-            ) : null}
+              </div>
+            </Collapse>
           </Card>
         );
       })}
