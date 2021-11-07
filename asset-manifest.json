@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/boxomat/static/css/main.0f26fcd1.chunk.css",
-    "main.js": "/boxomat/static/js/main.455b6f3c.chunk.js",
-    "main.js.map": "/boxomat/static/js/main.455b6f3c.chunk.js.map",
-    "runtime-main.js": "/boxomat/static/js/runtime-main.21e75e79.js",
-    "runtime-main.js.map": "/boxomat/static/js/runtime-main.21e75e79.js.map",
+    "main.css": "/boxomat/static/css/main.05a1901f.chunk.css",
+    "main.js": "/boxomat/static/js/main.61a46640.chunk.js",
+    "main.js.map": "/boxomat/static/js/main.61a46640.chunk.js.map",
+    "runtime-main.js": "/boxomat/static/js/runtime-main.4155791f.js",
+    "runtime-main.js.map": "/boxomat/static/js/runtime-main.4155791f.js.map",
     "static/css/2.0eea3a3e.chunk.css": "/boxomat/static/css/2.0eea3a3e.chunk.css",
-    "static/js/2.2762ce34.chunk.js": "/boxomat/static/js/2.2762ce34.chunk.js",
-    "static/js/2.2762ce34.chunk.js.map": "/boxomat/static/js/2.2762ce34.chunk.js.map",
-    "static/js/3.61f1b967.chunk.js": "/boxomat/static/js/3.61f1b967.chunk.js",
-    "static/js/3.61f1b967.chunk.js.map": "/boxomat/static/js/3.61f1b967.chunk.js.map",
+    "static/js/2.6b27a7c8.chunk.js": "/boxomat/static/js/2.6b27a7c8.chunk.js",
+    "static/js/2.6b27a7c8.chunk.js.map": "/boxomat/static/js/2.6b27a7c8.chunk.js.map",
+    "static/js/3.92f933a1.chunk.js": "/boxomat/static/js/3.92f933a1.chunk.js",
+    "static/js/3.92f933a1.chunk.js.map": "/boxomat/static/js/3.92f933a1.chunk.js.map",
     "index.html": "/boxomat/index.html",
     "static/css/2.0eea3a3e.chunk.css.map": "/boxomat/static/css/2.0eea3a3e.chunk.css.map",
-    "static/css/main.0f26fcd1.chunk.css.map": "/boxomat/static/css/main.0f26fcd1.chunk.css.map",
-    "static/js/2.2762ce34.chunk.js.LICENSE.txt": "/boxomat/static/js/2.2762ce34.chunk.js.LICENSE.txt",
+    "static/css/main.05a1901f.chunk.css.map": "/boxomat/static/css/main.05a1901f.chunk.css.map",
+    "static/js/2.6b27a7c8.chunk.js.LICENSE.txt": "/boxomat/static/js/2.6b27a7c8.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/boxomat/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.21e75e79.js",
+    "static/js/runtime-main.4155791f.js",
     "static/css/2.0eea3a3e.chunk.css",
-    "static/js/2.2762ce34.chunk.js",
-    "static/css/main.0f26fcd1.chunk.css",
-    "static/js/main.455b6f3c.chunk.js"
+    "static/js/2.6b27a7c8.chunk.js",
+    "static/css/main.05a1901f.chunk.css",
+    "static/js/main.61a46640.chunk.js"
   ]
 }
