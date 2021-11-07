@@ -1,5 +1,5 @@
 # Boxomat
-Boxomat helps you plan assortment boxes. [Try it out](https://electriccookie.github.io/about)
+Boxomat helps you plan assortment boxes. [Try it out](https://electriccookie.github.io/boxomat)
 
 Created using create-react-app. 
 
@@ -13,4 +13,3 @@ Created using create-react-app.
 
 ## Todo
 [ ] Ability to delete boxes 
- 
