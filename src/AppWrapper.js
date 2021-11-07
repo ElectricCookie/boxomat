@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const AppWrapper = styled.div`
   display: flex;
+  box-sizing: border-box;
   padding-top: 40px;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
 `;

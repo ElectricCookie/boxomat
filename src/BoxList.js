@@ -7,6 +7,7 @@ import { Button } from "semantic-ui-react";
 const BoxListWrapper = styled.div`
   border-bottom: 1px solid #ddd;
   padding: 1rem;
+  align-items: center;
   display: flex;
 `;
 

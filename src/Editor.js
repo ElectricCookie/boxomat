@@ -35,12 +35,14 @@ const Editor = () => {
         </div>
         <div className="inspector">
           <h2>
-            {activeBox?.sizeX}x{activeBox?.sizeY}
+            Box: {activeBox?.sizeX}x{activeBox?.sizeY} (
+            {activeBox?.sizeX * activeBox?.sizeY} slots)
           </h2>
-          <Button onClick={clearInserts}>Clear inserts</Button>
 
           <h3>Inserts</h3>
           <InsertList />
+
+          <Button onClick={clearInserts}>Clear inserts</Button>
         </div>
       </EditorWrapper>
     </>
