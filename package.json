@@ -2,6 +2,7 @@
   "name": "box-planner",
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": "http://ElectricCookie.github.io/boxomat",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -27,7 +28,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "postinstall": "npm-license-crawler -onlyDirectDependencies -json licenses.json",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
