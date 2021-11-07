@@ -27,7 +27,7 @@ function App() {
   return (
     <AppWrapper>
       <BoxPlanner.Provider>
-        <BrowserRouter>
+        <BrowserRouter basename="/boxomat">
           <Menu inverted fixed="top">
             <Menu.Item header>Boxomat</Menu.Item>
             <MenuLink path="/" exact>
