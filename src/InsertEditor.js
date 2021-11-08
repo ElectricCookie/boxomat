@@ -27,31 +27,24 @@ export const Swatch = styled.div`
 // Insert editor allows the user to modify the properties of a box insert.
 
 const InsertEditor = ({ insertId }) => {
-  const { activeBox, updateBox, activeBoxId, repositionInsert } =
-    BoxPlanner.useContainer();
+  const {
+    activeBox,
+    updateInsert,
+    activeBoxId,
+    selectInsert,
+    repositionInsert,
+  } = BoxPlanner.useContainer();
 
   const insert = activeBox.inserts[insertId];
 
-  const updateInsert = (updatedInsert) => {
-    updateBox(
-      activeBoxId,
-      produce(activeBox, (draft) => {
-        if (updatedInsert == null) {
-          delete draft.inserts[insertId];
-        } else {
-          draft.inserts[insertId] = updatedInsert;
-        }
-
-        return draft;
-      })
-    );
-  };
+  const setInsert = (newInsert) =>
+    updateInsert(activeBoxId, insertId, newInsert);
 
   const changeLabel = (e) => {
     if (e.target.value.length > 24) {
       return;
     }
-    updateInsert(
+    setInsert(
       produce(insert, (draft) => {
         draft.label = e.target.value;
         return draft;
@@ -60,7 +53,7 @@ const InsertEditor = ({ insertId }) => {
   };
 
   const changeColor = (color) => {
-    updateInsert(
+    setInsert(
       produce(insert, (draft) => {
         draft.color = color;
         return draft;
@@ -69,7 +62,9 @@ const InsertEditor = ({ insertId }) => {
   };
 
   // Updating with value of null deletes the insert
-  const deleteInsert = () => updateInsert();
+  const deleteInsert = () => {
+    setInsert(null);
+  };
 
   const submitted = (e) => {
     e.preventDefault();

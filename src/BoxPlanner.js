@@ -11,7 +11,7 @@ const useBoxPlanner = () => {
 
   const setBoxes = (boxes) => {
     localStorage.setItem("app-state", JSON.stringify(boxes));
-
+    console.log("setBoxes", boxes);
     setBoxesState(boxes);
   };
 
@@ -22,6 +22,20 @@ const useBoxPlanner = () => {
   const [repositioningInsert, setRepositioning] = useState(null);
 
   // Update the box with the given id.
+
+  const updateInsert = (boxId, insertId, insert) => {
+    setBoxes(
+      produce(boxes, (draft) => {
+        const box = draft[boxId];
+        if (insert != null) {
+          box.inserts[insertId] = insert;
+        } else {
+          delete box.inserts[insertId];
+        }
+      })
+    );
+  };
+
   const updateBox = (id, box) => {
     setBoxes(
       produce(boxes, (draft) => {
@@ -29,9 +43,9 @@ const useBoxPlanner = () => {
           draft[id] = box;
         } else {
           // Delete if null
+
           delete draft[id];
         }
-        return draft;
       })
     );
   };
@@ -214,6 +228,10 @@ const useBoxPlanner = () => {
   };
 
   const selectInsert = (id) => {
+    if (boxes[activeBoxId].activeInsert === id) {
+      return;
+    }
+
     setBoxes(
       produce(boxes, (draft) => {
         draft[activeBoxId].activeInsert = id;
@@ -229,6 +247,7 @@ const useBoxPlanner = () => {
     setShowAddBox,
     clearInserts,
     selectSlot,
+    updateInsert,
     repositionInsert,
     repositioningInsert,
     cancelReposition,
