@@ -96,7 +96,9 @@ const InsertEditor = ({ insertId }) => {
         })}
       </FormField>
       <FormField>
-        <Button onClick={deleteInsert}>Remove</Button>
+        <Button color="red" onClick={deleteInsert}>
+          Remove
+        </Button>
         <Button onClick={reposition}>Move</Button>
       </FormField>
     </Form>

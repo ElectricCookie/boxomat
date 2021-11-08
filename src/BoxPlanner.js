@@ -241,6 +241,10 @@ const useBoxPlanner = () => {
     );
   };
 
+  const deleteBox = () => {
+    updateBox(activeBoxId, null);
+  };
+
   return {
     showAddBox,
     forBox: (render) => Object.keys(boxes).map((id) => render(id, boxes[id])),
@@ -250,6 +254,7 @@ const useBoxPlanner = () => {
     updateInsert,
     repositionInsert,
     repositioningInsert,
+    deleteBox,
     cancelReposition,
     selectInsert,
     activeBox: boxes[activeBoxId],

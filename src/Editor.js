@@ -17,6 +17,7 @@ const Editor = () => {
     updateBox,
     setShowAddBox,
     activeBoxId,
+    deleteBox,
     clearInserts,
   } = BoxPlanner.useContainer();
 
@@ -68,7 +69,12 @@ const Editor = () => {
           <h3>Inserts</h3>
           <InsertList />
 
-          <Button onClick={clearInserts}>Clear inserts</Button>
+          <Button color="red" onClick={clearInserts}>
+            Clear inserts
+          </Button>
+          <Button color="red" onClick={deleteBox}>
+            Delete box
+          </Button>
         </div>
       </EditorWrapper>
     </>
