@@ -11,8 +11,34 @@ import { RepositionHolder } from "./RepositionHolder";
 const Editor = () => {
   const [scale, setScale] = useState(3);
 
-  const { activeBox, updateBox, activeBoxId, clearInserts } =
-    BoxPlanner.useContainer();
+  const {
+    activeBox,
+    boxes,
+    updateBox,
+    setShowAddBox,
+    activeBoxId,
+    clearInserts,
+  } = BoxPlanner.useContainer();
+
+  if (Object.keys(boxes).length === 0) {
+    return (
+      <div
+        style={{
+          display: "flex",
+          flex: 1,
+          alignItems: "center",
+          flexDirection: "column",
+          justifyContent: "center",
+        }}
+      >
+        <NewBoxModal />
+        <p>You don't have a box yet.</p>
+        <Button primary onClick={() => setShowAddBox(true)}>
+          Create your first box
+        </Button>
+      </div>
+    );
+  }
 
   return (
     <>
